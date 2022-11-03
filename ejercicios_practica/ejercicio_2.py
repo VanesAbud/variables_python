@@ -27,9 +27,20 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
+Suma = numero_1 + numero_2
+print('El resultado de sumar', numero_1, 'y', numero_2, 'es', Suma)
+
+''' no podia encontrar el error que me mostraba, hasta que usé la pantalla que me indica
+el problema y encontre una comilla al final del parentesis que no tenia sentido'''
 
 # Resta
+Resta = numero_1 - numero_2
+print('El resultado de restar', numero_1, 'y', numero_2, 'es', Resta)
 
 # División
+Division = numero_1 / numero_2
+print('El resultado de dividir', numero_1, 'y', numero_2, 'es', Division)
 
 # Multiplicación
+Multiplicacion = numero_1 * numero_2
+print('El resultado de multiplicar', numero_1, 'y', numero_2, 'es', Multiplicacion)

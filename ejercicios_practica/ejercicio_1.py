@@ -22,3 +22,13 @@ numero_2 = 7
 # print(....)
 
 # Repita el procedimiento para realizar la resta
+
+# Realizo la suma de las variables
+
+operacionSuma = numero_1 + numero_2
+print('La suma resulta en', operacionSuma)
+
+# realizo la resta de las variables 
+
+operacionResta = numero_1 - numero_2
+print('La resta resulta en', operacionResta)

@@ -17,6 +17,17 @@ print('Ingrese palabra 2:')
 palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
+
+primletras_1 = palabra_1[0:3]
+
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
+
+primletras_2 = palabra_2[0:2]
+
 # Formar una nueva palabra con los recortes solicitados
+
+neworld = (primletras_1+ primletras_2)
+
 # Imprima en pantalla los resultados
+
+print(neworld.upper())
